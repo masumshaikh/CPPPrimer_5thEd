@@ -950,7 +950,7 @@ struct Foo { /* empty */ }; // If the semi-colon is omitted, you get two compile
 // No answer: not sure what is expected here, as Sales_data is just a struct.
 //
 // Here's the code for Sales_data, from p73.
-struct Sales_data
+struct Sales_data_v7_37
 {
     std::string bookNo;
     unsigned units_sold = 0;
@@ -972,7 +972,7 @@ struct Sales_data
 int ex_2_41_121()
 {
     /// Code to read data1 and data2. Triple /// means a comment given in the book, on p114.
-    Sales_data data1, data2;
+    Sales_data_v7_37 data1, data2;
     std::string bookNo = "";
     unsigned int units_sold = 0;
     double revenue = 0.0;

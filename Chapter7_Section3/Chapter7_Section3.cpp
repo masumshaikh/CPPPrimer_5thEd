@@ -157,9 +157,9 @@ int ex_7_27()
 // Exercise 7.31: Deﬁne a pair of classes X and Y, in which X has a pointer to Y, and Y has
 // an object of type X.
 class Y; // forward declaration.
-class X { Y* yp; };
-class Y { X x; }; // definition.
-int ex_7_31() { X(); Y(); return 0; } // Dummy function to check this compiles and runs.
+class X_7_36 { Y* yp; };
+class Y { X_7_36 x; }; // definition.
+int ex_7_31() { X_7_36(); Y(); return 0; } // Dummy function to check this compiles and runs.
 
 
 // --------------------------------------------------------------------------------------------------------------------
